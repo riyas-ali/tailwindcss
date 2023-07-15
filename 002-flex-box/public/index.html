@@ -315,6 +315,112 @@
             <div class="p-2 bg-red-200">block 4 amet, consectetur adipisicing elit. Atque, ipsa? amet, consectetur adipisicing elit. Atque, ipsa?</div>
         </div>
     </div>
+    <div>
+        <hr class="my-4">
+        <p class="mb-2"><i>align-self: flex-start;</i><code
+            class="ml-6">class: self-start</code></p>
+        <div class="bg-slate-200 flex h-20">
+            <div class="p-2 bg-yellow-200">block 1</div>
+            <div class="p-2 bg-blue-200">block 2</div>
+            <div class="p-2 bg-green-200">block 3</div>
+            <div class="p-2 bg-red-200 self-start">block 4</div>
+        </div>
+    </div>
+    <div>
+        <hr class="my-4">
+        <p class="mb-2"><i>align-self: flex-end;</i><code
+            class="ml-6">class: self-end</code></p>
+        <div class="bg-slate-200 flex h-20">
+            <div class="p-2 bg-yellow-200">block 1</div>
+            <div class="p-2 bg-blue-200">block 2</div>
+            <div class="p-2 bg-green-200">block 3</div>
+            <div class="p-2 bg-red-200 self-end">block 4</div>
+        </div>
+    </div>
+    <div>
+        <hr class="my-4">
+        <p class="mb-2"><i>align-self: flex-center;</i><code
+            class="ml-6">class: self-center</code></p>
+        <div class="bg-slate-200 flex h-20">
+            <div class="p-2 bg-yellow-200">block 1</div>
+            <div class="p-2 bg-blue-200">block 2</div>
+            <div class="p-2 bg-green-200">block 3</div>
+            <div class="p-2 bg-red-200 self-center">block 4</div>
+        </div>
+    </div>
+    <div>
+        <hr class="my-4">
+        <p class="mb-2"><i>flex-grow: 1;</i><code
+            class="ml-6">class: flex-grow</code></p>
+        <div class="bg-slate-200 flex h-20">
+            <div class="p-2 bg-yellow-200">block 1</div>
+            <div class="p-2 bg-blue-200 flex-grow">block 2</div>
+            <div class="p-2 bg-green-200">block 3</div>
+            <div class="p-2 bg-red-200">block 4</div>
+        </div>
+    </div>
+    <div>
+        <hr class="my-4">
+        <p class="mb-2"><i>flex-shrink: 0;</i><code
+            class="ml-6">class: flex-shrink-0</code></p>
+        <div class="bg-slate-200 flex h-20">
+            <div class="p-2 bg-yellow-200">block 1</div>
+            <div class="p-2 bg-blue-200 flex-shrink-0">block 2 Lorem ipsum dolor sit amet consectetur adipisicing elit. A voluptate, temporibus atque nihil maxime ea eligendi optio natus nobis reprehenderit quas asdfasdfasdfasgasdgasdfsdf</div>
+            <div class="p-2 bg-green-200">block 3 Lorem ipsum dolor sit amet consectetur adipisicing elit.</div>
+            <div class="p-2 bg-red-200">block 4</div>
+        </div>
+    </div>
+    <div>
+        <hr class="my-4">
+        <p class="mb-2"><i>flex: 1 1 0%;</i><code
+            class="ml-6">class: flex-1</code></p>
+        <div class="bg-slate-200 flex h-20">
+            <div class="p-2 bg-yellow-200 flex-1">block 1</div>
+            <div class="p-2 bg-blue-200 flex-1">block 2 Lorem ipsum dolor sit amet consectetur adipisicing elit. A voluptate, temporibus atque nihil maxime ea eligendi optio natus</div>
+            <div class="p-2 bg-green-200 flex-1">block 3 Lorem ipsum dolor sit amet consectetur adipisicing elit.</div>
+            <div class="p-2 bg-red-200 flex-1">block 4</div>
+        </div>
+    </div>
+    <div>
+        <hr class="my-4">
+        <p class="mb-2"><i>flex: 1 1 25%; flex: 1 1 50%;</i><code
+            class="ml-6">'custom class' class: flex-1/4 flex-1/2</code></p>
+        <div class="bg-slate-200 flex h-20">
+            <div class="p-2 bg-yellow-200 flex-1/4">block 1</div>
+            <div class="p-2 bg-blue-200 flex-1/2">block 2 </div>
+            <div class="p-2 bg-green-200 flex-1/4">block 3 </div>
+        </div>
+    </div>
+    <div>
+        <hr class="my-4">
+        <p class="mb-2"><i>order: -9999; 'larger devices': order: 0;</i><code
+            class="ml-6">class: order-first md:order-none</code></p>
+        <div class="bg-slate-200 flex flex-col md:flex-row h-20">
+            <div class="p-2 bg-yellow-200 flex-1/4">block 1</div>
+            <div class="p-2 bg-blue-200 flex-1/2 order-first md:order-none">block 2 </div>
+            <div class="p-2 bg-green-200 flex-1/4">block 3 </div>
+        </div>
+    </div>
+    <div>
+        <hr class="my-4">
+        <p class="mb-2"><i>for gap custom css</i><code
+            class="ml-6">class: space-x-5</code></p>
+        <div class="bg-slate-200 flex flex-col md:flex-row h-20 space-x-5">
+            <div class="p-2 bg-yellow-200 flex-1/4">block 1</div>
+            <div class="p-2 bg-blue-200 flex-1/2">block 2 </div>
+            <div class="p-2 bg-green-200 flex-1/4">block 3 </div>
+        </div>
+    </div>
+    <div>
+        <hr class="my-4">
+        <p class="mb-2"><i>for gap custom css</i><code
+            class="ml-6">class: space-y-5</code></p>
+        <div class="bg-slate-200 flex flex-col space-y-5">
+            <div class="p-2 bg-yellow-200">block 1</div>
+            <div class="p-2 bg-blue-200">block 2 </div>
+            <div class="p-2 bg-green-200">block 3 </div>
+        </div>
+    </div>
 </body>
 
 </html>
